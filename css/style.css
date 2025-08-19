@@ -2220,6 +2220,7 @@ body._lock {
   font-weight: 500;
   display: flex;
   align-items: center;
+  gap: 8px;
   padding: 8px 35px 8px 16px;
   border-radius: 45px;
   background: rgba(17, 34, 65, 0.04);
@@ -2251,6 +2252,7 @@ body._lock {
 .filters__color {
   display: flex;
   align-items: center;
+  gap: 8px;
   font-family: "Manrope", sans-serif;
   font-size: 0.875rem;
   font-weight: 500;
@@ -2260,95 +2262,15 @@ body._lock {
   cursor: pointer;
 }
 
-.filters__color span {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin-right: 5px;
-  position: relative;
+.filters__color img {
+  max-width: 12px;
+  width: 100%;
+  max-height: 12px;
+  height: auto;
 }
 
 .filters__color input {
   display: none;
-}
-
-.filters__color_black span {
-  background: #494949;
-}
-
-.filters__color_multicolor span {
-  background: linear-gradient(90deg, rgb(118, 187, 136) 0%, rgb(118, 187, 186) 16%, rgb(118, 137, 187) 32%, rgb(166, 118, 187) 49%, rgb(187, 118, 164) 66%, rgb(224, 152, 113) 82%, rgb(224, 115, 113) 100%);
-}
-
-.filters__color_multicolor span::after {
-  content: "";
-  position: absolute;
-  width: 50%;
-  height: 50%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--white);
-  border-radius: 50%;
-}
-
-.filters__color_white span {
-  background: #FEFEFE;
-  border: 2px solid var(--black);
-}
-
-.filters__color_navy span {
-  background: #00008B;
-}
-
-.filters__color_red span {
-  background: #F00;
-}
-
-.filters__color_green span {
-  background: #008000;
-}
-
-.filters__color_pink span {
-  background: #FFC0CB;
-}
-
-.filters__color_beige span {
-  background: #F5F5DC;
-}
-
-.filters__color_brown span {
-  background: #A52A2A;
-}
-
-.filters__color_grey span {
-  background: #808080;
-}
-
-.filters__color_orange span {
-  background: #FFA500;
-}
-
-.filters__color_blue span {
-  background: #00F;
-}
-
-.filters__color_yellow span {
-  background: #FFFF00;
-}
-
-.filters__color_purple span {
-  background: #800080;
-}
-
-.filters__color_other span {
-  background: #FEFEFE;
-  border: 1px solid #D2D2D2;
-}
-
-.filters__color_bnw span {
-  background: linear-gradient(270deg, #FEFEFE 50%, #000 52.08%);
-  border: 1px solid var(--black);
 }
 
 .dialog-filter {
