@@ -1,0 +1,90 @@
+.static-page-content {
+  flex: 1 1 auto;
+}
+
+.static-page-content__body {
+  padding: 40px 16px;
+  border-radius: 5px;
+  background: #FFF;
+  margin-bottom: 150px;
+}
+
+.static-page-content__section {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.static-page-content__section:not(:last-child) {
+  margin-bottom: 21px;
+}
+
+.static-page-content__title {
+  margin-bottom: 16px;
+}
+
+.static-page-content__title.title1 {
+  margin-bottom: 15px;
+}
+
+.static-page-content__title.title2 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+}
+
+.static-page-content__pre-list {
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.static-page-content__list:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.static-page-content__item {
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 25px;
+}
+
+.static-page-content__item::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 13px;
+  left: 10px;
+  border-radius: 50%;
+  background: var(--black);
+  overflow: hidden;
+}
+
+.static-page-content__text {
+  font-size: 1.0625rem;
+  line-height: 1.5;
+}
+
+.static-page-content__text:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.static-page-content__text p:not(:last-of-type) {
+  margin-bottom: 14px;
+}
+
+.static-page-content__link {
+  color: #2673FF;
+  text-decoration: underline;
+}
+
+.static-page-content__link:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .static-page-content__body {
+    padding: 24px 16px;
+  }
+}
