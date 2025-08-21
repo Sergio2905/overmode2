@@ -4,12 +4,9 @@
 <head>
     <title>Dresshub</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.min.css?_v=20250819151949">
+    <link rel="stylesheet" href="css/main.min.css?_v=20250821085153">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
     <link rel="icon" type="image/ico" href="img/favicon.ico">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20250819151949"></script>
 </head>
 
 <body>
@@ -4924,7 +4921,7 @@
                 </div>
             </section>
 
-            <section class="main__deals deals-main">
+            <section class="main__deals deals-main lazy">
                 <div class="deals-main__container container">
                     <div class="deals-main__header">
                         <h2 class="deals-main__title">Deals From Our <span>Partner Stores</span></h2>
@@ -4944,22 +4941,60 @@
                     <div class="deals-main__slider">
                         <div class="deals-main__wrapper swiper-wrapper">
                             <a href="#" class="deals-main__slide swiper-slide">
-                                <picture><source srcset="img/deals/image1.webp" type="image/webp"><img src="img/deals/image1.jpg" alt="Image"></picture>
+                                <picture>
+                                    <source data-srcset="img/deals/image1.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/deals/image1.jpg" src="img/plug.png" alt="Image">
+                                </picture>
                             </a>
                             <a href="#" class="deals-main__slide swiper-slide">
-                                <picture><source srcset="img/deals/image2.webp" type="image/webp"><img src="img/deals/image2.jpg" alt="Image"></picture>
+                                <picture>
+                                    <source data-srcset="img/deals/image2.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/deals/image2.jpg" src="img/plug.png" alt="Image">
+                                </picture>
                             </a>
                             <a href="#" class="deals-main__slide swiper-slide">
-                                <picture><source srcset="img/products/similar/image1.webp" type="image/webp"><img src="img/products/similar/image1.png" alt="Image"></picture>
+                                <picture>
+                                    <source data-srcset="img/products/similar/image1.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/products/similar/image1.png" src="img/plug.png" alt="Image">
+                                </picture>
                             </a>
                             <a href="#" class="deals-main__slide swiper-slide">
-                                <picture><source srcset="img/deals/image1.webp" type="image/webp"><img src="img/deals/image1.jpg" alt="Image"></picture>
+                                <picture>
+                                    <source data-srcset="img/deals/image1.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/deals/image1.jpg" src="img/plug.png" alt="Image">
+                                </picture>
                             </a>
                             <a href="#" class="deals-main__slide swiper-slide">
-                                <picture><source srcset="img/deals/image2.webp" type="image/webp"><img src="img/deals/image2.jpg" alt="Image"></picture>
+                                <picture>
+                                    <source data-srcset="img/deals/image2.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/deals/image2.jpg" src="img/plug.png" alt="Image">
+                                </picture>
                             </a>
                             <a href="#" class="deals-main__slide swiper-slide">
-                                <picture><source srcset="img/products/similar/image1.webp" type="image/webp"><img src="img/products/similar/image1.png" alt="Image"></picture>
+                                <picture>
+                                    <source data-srcset="img/products/similar/image1.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/products/similar/image1.png" src="img/plug.png" alt="Image">
+                                </picture>
+                            </a>
+                            <a href="#" class="deals-main__slide swiper-slide">
+                                <picture>
+                                    <source data-srcset="img/deals/image2.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/deals/image2.jpg" src="img/plug.png" alt="Image">
+                                </picture>
+                            </a>
+                            <a href="#" class="deals-main__slide swiper-slide">
+                                <picture>
+                                    <source data-srcset="img/deals/image2.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/deals/image2.jpg" src="img/plug.png" alt="Image">
+                                </picture>
                             </a>
                         </div>
                     </div>
@@ -5056,8 +5091,11 @@
         <footer class="footer">
     <div class="footer__container container">
         <div class="footer__top">
-            <a href="#" class="footer__logo">
-                <img src="img/logo_white.svg" alt="Logo">
+            <a href="#" class="footer__logo lazy">
+                <picture>
+                    <source data-srcset="img/logo_white.svg" srcset="img/plug.png" type="image/webp">
+                    <img data-src="img/logo_white.svg" src="img/plug.png" alt="Image">
+                </picture>
             </a>
             <div class="footer__subscribe">
                 <p class="footer__text">
@@ -5340,7 +5378,7 @@
         </div>
     </div>
 </div>
-    <script src="js/main.min.js?_v=20250819151949" defer></script>
+    <script src="js/main.min.js?_v=20250821085153" defer></script>
 </body>
 
 </html>

@@ -4,12 +4,9 @@
 <head>
     <title>Dresshub</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/category.min.css?_v=20250819151949">
+    <link rel="stylesheet" href="css/category.min.css?_v=20250821085153">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
     <link rel="icon" type="image/ico" href="img/favicon.ico">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20250819151949"></script>
 </head>
 
 <body>
@@ -1324,27 +1321,6 @@
                                         <a href="#" class="main-category__link">
                                             Official website: www.google.com
                                         </a>
-                                        <!-- <a href="#" class="main-category__btn btn-gradient">
-                                            <svg>
-                                                <use href="img/icons/icons.svg#outfits"></use>
-                                            </svg>
-                                            Outfits
-                                        </a> -->
-                                        <!-- <div class="main-category__prompt prompt active">
-                                            <div class="prompt__body">
-                                                <a href="" class="prompt__text">
-                                                    Official website: www.google.com
-                                                </a>
-                                                <button type="button" class="prompt__btn">
-                                                    <svg>
-                                                        <use href="img/icons/icons.svg#close"></use>
-                                                    </svg>
-                                                    <svg>
-                                                        <use href="img/icons/icons.svg#attention"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                        </div> -->
                                     </div>
                                     <p class="main-category__desc">
                                         Get ready for summer with our latest collection of lightweight dresses.
@@ -1495,7 +1471,7 @@
                         </div>
                         <div class="category__block content__block">
                             <div class="category__filters filters">
-                                <h4 class="filters__title title4">Filters</h4>
+                                <div class="filters__title title4">Filters</div>
                                 <ul class="filters__list">
                                     <li class="filters__item">
                                         <button type="button" class="filters__btn">
@@ -1539,11 +1515,7 @@
                                     </button>
                                 </div>
                                 <a href="#" class="prod-card__image">
-                                    <picture>
-                                        <source data-srcset="img/products/image10.webp" srcset="img/plug.png"
-                                            type="image/webp">
-                                        <img data-src="img/products/image10.png" src="img/plug.png" alt="Image">
-                                    </picture>
+                                    <picture><source srcset="img/products/image10.webp" type="image/webp"><img src="img/products/image10.png" alt="Image"></picture>
                                     <button type="button" class="prod-card__view popup-link" data-modal="product">
                                         <svg>
                                             <use href="img/icons/icons.svg#eye"></use>
@@ -1644,11 +1616,7 @@
                                     </button>
                                 </div>
                                 <a href="#" class="prod-card__image">
-                                    <picture>
-                                        <source data-srcset="img/products/image10.webp" srcset="img/plug.png"
-                                            type="image/webp">
-                                        <img data-src="img/products/image10.png" src="img/plug.png" alt="Image">
-                                    </picture>
+                                    <picture><source srcset="img/products/image10.webp" type="image/webp"><img src="img/products/image10.png" alt="Image"></picture>
                                     <button type="button" class="prod-card__view popup-link" data-modal="product">
                                         <svg>
                                             <use href="img/icons/icons.svg#eye"></use>
@@ -2856,10 +2824,11 @@
                                         is
                                         being over-promised as a silver bullet for long-term career succ
                                     </p>
-                                    <figure class="article__image">
+                                    <figure class="article__image lazy">
                                         <picture>
-                                            <source srcset="img/articles/Image1.jpg" type="image/webp">
-                                            <img src="img/articles/Image1.jpg" alt="Image">
+                                            <source data-srcset="img/articles/Image1.webp" srcset="img/plug.png"
+                                                type="image/webp">
+                                            <img data-src="img/articles/Image1.jpg" src="img/plug.png" alt="Image">
                                         </picture>
                                         <figcaption>Lorem ipsum sit amet dolor</figcaption>
                                     </figure>
@@ -3160,8 +3129,11 @@
         <footer class="footer">
     <div class="footer__container container">
         <div class="footer__top">
-            <a href="#" class="footer__logo">
-                <img src="img/logo_white.svg" alt="Logo">
+            <a href="#" class="footer__logo lazy">
+                <picture>
+                    <source data-srcset="img/logo_white.svg" srcset="img/plug.png" type="image/webp">
+                    <img data-src="img/logo_white.svg" src="img/plug.png" alt="Image">
+                </picture>
             </a>
             <div class="footer__subscribe">
                 <p class="footer__text">
@@ -3942,7 +3914,7 @@
         </div>
     </div>
 </div>
-    <script src="js/category.min.js?_v=20250819151949" defer></script>
+    <script src="js/category.min.js?_v=20250821085153" defer></script>
 </body>
 
 </html>

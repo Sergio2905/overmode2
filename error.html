@@ -4,12 +4,9 @@
 <head>
     <title>Dresshub</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/form.min.css?_v=20250819151949">
+    <link rel="stylesheet" href="css/form.min.css?_v=20250821085153">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
     <link rel="icon" type="image/ico" href="img/favicon.ico">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20250819151949"></script>
 </head>
 
 <body>
@@ -861,8 +858,11 @@
         <footer class="footer">
     <div class="footer__container container2">
         <div class="footer__top">
-            <a href="#" class="footer__logo">
-                <img src="img/logo_white.svg" alt="Logo">
+            <a href="#" class="footer__logo lazy">
+                <picture>
+                    <source data-srcset="img/logo_white.svg" srcset="img/plug.png" type="image/webp">
+                    <img data-src="img/logo_white.svg" src="img/plug.png" alt="Image">
+                </picture>
             </a>
             <div class="footer__subscribe">
                 <p class="footer__text">
@@ -1145,7 +1145,7 @@
         </div>
     </div>
 </div>
-    <script src="js/form.min.js?_v=20250819151949" defer></script>
+    <script src="js/form.min.js?_v=20250821085153" defer></script>
 </body>
 
 </html>
